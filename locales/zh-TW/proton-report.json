@@ -1,12 +1,14 @@
 {
   "appSelection": {
     "caution": "注意！",
-    "helperText": "您也可以通過貼上鏈結或 App ID 找到遊戲",
+    "helperText": "您也可以貼上連結或 App ID 來尋找遊戲",
+    "noPlaytime": "您的 [Steam 隱私權設定]({{link}})沒有將遊戲詳細資訊設為公開，或是您啟用了｢即使其他玩家能看到我的遊戲詳細資訊，也不要顯示我的總遊玩時間｣，故您的 Steam 帳號沒有此遊戲的遊玩時間紀錄。您的回報仍會顯示您擁有此遊戲。如果我們誤判，請告知我們。",
     "notFound": "無法找到 App ID 為 {{query}} 的遊戲。有可能是輸入錯誤或者以下原因導致的：已從 Steam 商店下架、不在「遊戲」分類中或該遊戲在您的區域不可用。",
-    "placeholder": "輸入您 Steam 庫中的一個遊戲名稱……",
-    "playedNatively": "您是否沒用 Proton 來運行原生版本的遊戲？",
+    "notOwner": "您的 [Steam 隱私權設定]({{link}})沒有將遊戲詳細資訊設為公開，故您的 Steam 帳號顯示您並未擁有此遊戲，也不會在您的回報中顯示。如果我們誤判，請告知我們。",
+    "placeholder": "輸入您 Steam 收藏庫中的一個遊戲名稱……",
+    "playedNatively": "您是否沒有使用 Proton ，並直接運行遊戲的原生版本？",
     "previousReportsExist": "您已提交過該遊戲的回報",
-    "runsNativeWarning": "您選中的遊戲已發布了原生 Linux 版！請確認您運行的不是原生版。默認情况下，Steam 不會使用 Steam Play 運行該遊戲，但您可以 [強制這樣做]({{link}})。"
+    "runsNativeWarning": "您選中的遊戲已發布了原生 Linux 版！請確認您運行的不是原生版。預設情况下，Steam 不會使用 Proton 運行該遊戲，但您可以[強制這樣做]({{link}})。"
   },
   "audioFaults": {
     "legend": "聲音問題",
@@ -24,8 +26,8 @@
         "short": "低品質"
       },
       "missing": {
-        "long": "一些音效失效",
-        "short": "失效"
+        "long": "一些音效未被播放",
+        "short": "未播放"
       },
       "other": {
         "long": "其他",
@@ -41,21 +43,96 @@
   "authoringLanguage": {
     "prompt": "您會以什麼語言來回報？"
   },
+  "batteryPerformance": {
+    "legend": "電池續航",
+    "prompt": "您是否有做了任何更動來改善電池續航？"
+  },
   "borked": {
     "headline": "真是可惜！",
-    "intro": "您將會提交無法遊玩的回報，但在那之前您也許想看看我們的 [遊戲疑難排解 FAQ]({{link}}) 頁面。"
+    "intro": "您將會提交無法遊玩的回報，但在那之前您也許想看看我們的[遊戲疑難排解 FAQ]({{link}}) 頁面。"
   },
   "concludingNotes": {
     "label": "總結",
     "prompt": "在報告最後加入總結。"
+  },
+  "controlLayout": {
+    "additionalNotes": {
+      "label": "社群版本為？"
+    },
+    "legend": "控制配置",
+    "options": {
+      "community": {
+        "long": "社群配置",
+        "short": "社群配置"
+      },
+      "gamepad": {
+        "long": "控制器",
+        "short": "控制器"
+      },
+      "gamepadWithGyro": {
+        "long": "帶陀螺儀的控制器",
+        "short": "帶陀螺儀的控制器"
+      },
+      "gamepadWithJoystick": {
+        "long": "帶搖桿觸控板的控制器",
+        "short": "帶搖桿觸控板的控制器"
+      },
+      "gamepadWithMouseTrackpad": {
+        "long": "帶游標觸控板的控制器",
+        "short": "帶游標觸控板的控制器"
+      },
+      "keyboardAndMouse": {
+        "long": "鍵盤 (WASD) 和滑鼠",
+        "short": "鍵盤和滑鼠"
+      },
+      "mouseOnly": {
+        "long": "僅滑鼠",
+        "short": "僅滑鼠"
+      },
+      "official": {
+        "long": "官方配置",
+        "short": "官方"
+      },
+      "touchscreenMouseEmulation": {
+        "long": "觸控螢幕模擬滑鼠",
+        "short": "觸控螢幕模擬滑鼠"
+      }
+    },
+    "prompt": "您是以哪種控制配置遊玩？"
+  },
+  "controlLayoutCustomization": {
+    "additionalNotes": {
+      "label": "自訂",
+      "prompt": "說明您的更動"
+    },
+    "legend": "自訂控制配置",
+    "options": {
+      "enableGripButtons": {
+        "long": "啟用了後持按鍵",
+        "short": "後持按鍵"
+      },
+      "gyro": {
+        "long": "啟用了陀螺儀",
+        "short": "陀螺儀"
+      },
+      "other": {
+        "long": "其他",
+        "short": "其他"
+      },
+      "rightTrackpad": {
+        "long": "更改過右觸控板的行為",
+        "short": "右觸控板"
+      }
+    },
+    "prompt": "您是否有進一步的自訂控制方式？"
   },
   "customProtonVersion": {
     "label": "版本"
   },
   "customizationsUsed": {
     "additionalNotes": {
-      "label": "Further Details",
-      "placeholder": "Explanation or link to blog post or Github repository"
+      "label": "更多細節",
+      "placeholder": "說明或部落格文章或 GitHub 儲存庫的連結"
     },
     "legend": "調整",
     "options": {
@@ -97,6 +174,13 @@
       }
     },
     "prompt": "您用了以上哪些方法自訂？"
+  },
+  "device": {
+    "legend": "裝置",
+    "prompt": "您使用了哪個裝置來遊玩？"
+  },
+  "didChangeControlLayout": {
+    "prompt": "您是否有更改預設控制配置？"
   },
   "duration": {
     "legend": "時長",
@@ -158,8 +242,8 @@
         "short": "OpenGL"
       },
       "unsure": {
-        "long": "遊戲默認設定",
-        "short": "默認"
+        "long": "遊戲預設設定",
+        "short": "預設"
       },
       "vk": {
         "long": "Vulkan",
@@ -426,6 +510,10 @@
     },
     "prompt": "您使用的是什麼版本的 Proton？"
   },
+  "readability": {
+    "legend": "文字難以閱讀",
+    "prompt": "遊戲中是否有難以閱讀的文字？"
+  },
   "saveGameFaults": {
     "legend": "存檔問題",
     "options": {
@@ -443,6 +531,10 @@
       }
     },
     "prompt": "是否有遊戲存檔相關的問題？"
+  },
+  "secondaryLauncher": {
+    "legend": "第二啟動器問題",
+    "prompt": "您是否有因為第二啟動視窗而遭遇任何問題？"
   },
   "significantBugs": {
     "legend": "其他明顯問題",
@@ -478,11 +570,15 @@
     "multiplayer": "多人遊戲",
     "preview": "預覽",
     "setup": "配置",
-    "stability": "穩定性",
     "startup": "安裝與運行",
-    "unownedWarning": "不在遊戲庫中"
+    "steamDeckRelated": "Steam Deck 相關",
+    "technical": "技術細節",
+    "unownedWarning": "不在收藏庫中"
   },
   "tinkerOverride": {
+    "additionalNotes": {
+      "label": "調整說明"
+    },
     "options": {
       "no": {
         "long": "不 - 這不用手動調整",
@@ -498,6 +594,39 @@
   "triedOob": {
     "prompt": "您的回報將會被認定為手動調整回報。您是否嘗試過不手動調整只用 Steam 與 Proton 來遊玩呢？"
   },
+  "variant": {
+    "additionalNotes": {
+      "label": "名字是？"
+    },
+    "legend": "變體",
+    "options": {
+      "experimental": {
+        "long": "強制使用測試版",
+        "short": "測試版"
+      },
+      "ge": {
+        "long": "Glorious Eggroll (GE)",
+        "short": "GE"
+      },
+      "native": {
+        "long": "原生。無需使用 Proton。",
+        "short": "原生"
+      },
+      "notListed": {
+        "long": "未列出",
+        "short": "未列出"
+      },
+      "official": {
+        "long": " Steam 預設建議",
+        "short": "官方"
+      },
+      "older": {
+        "long": "切換至舊版",
+        "short": "舊版"
+      }
+    },
+    "prompt": "您使用了 Proton 的哪個變體？"
+  },
   "verdict": {
     "additionalNotes": {
       "label": "總結（不超過 {{count}} 個字）",
@@ -510,12 +639,12 @@
   },
   "welcome": {
     "headline": "歡迎",
-    "intro": "感謝您對壯大 ProtonDB 的 Steam Play 和 Proton 兼容性回報庫感興趣！在您開始提交之前，請您記住以下幾點",
+    "intro": "感謝您對壯大 ProtonDB 的 Steam Play 和 Proton 兼容性回報庫感興趣！在您開始提交之前，請您謹記以下幾點",
     "notes": [
-      "所有回報會被在 ProtonDB 上公開，以幫助用戶、Valve 和開發者修復遊戲。請保證您的回報正確、言語和善，並且避免出於推廣您喜歡的遊戲、發行版或顯卡的目的提交回報。",
-      "為同一個遊戲提交多個回報是被鼓勵的行為！當您深入遊戲後或者更新了 Proton 後，您可能會有更多訊息想要分享。ProtonDB 在這一點上和 wiki 有所不同，每個回報都被視為您當時遊戲狀態的「快照」。",
+      "所有回報會被在 ProtonDB 上公開，以幫助使用者、Valve 和開發者修復遊戲。請保證您的回報正確、言語和善，並且避免出於推廣您喜歡的遊戲、發行版或顯卡的目的提交回報。",
+      "為同一個遊戲提交多個回報是被鼓勵的行為！當您深入遊戲後或者更新了 Proton 後，您可能會有更多資訊想要分享。ProtonDB 在這一點上和 wiki 有所不同，每個回報都被視為您當時遊戲狀態的「快照」。",
       "如果您提交了多個回報，只有最新的、並且只有符合 Proton 最低要求的那個才會被 ProtonDB 評分系統採用。",
-      "您的回報將在 ProtonDB 上公開，並且可以以開放資料庫授權（Open Database License）導出資料。請到 [這裡]({{link}}) 了解更多訊息。"
+      "您的回報將在 ProtonDB 上公開，並且可以以開放資料庫授權（Open Database License）導出資料。請到[這裡]({{link}})了解更多訊息。"
     ],
     "outro": "以上，讓我們開始吧！"
   },

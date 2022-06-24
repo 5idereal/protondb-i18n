@@ -16,11 +16,157 @@
     "unrated": "未評分",
     "unreported": "未回報"
   },
+  "compatibilitySection": {
+    "aggregateHeadline": "In aggregate",
+    "chartTypeHeadline": "類別",
+    "chartTypes": {
+      "fullSteamCatalog": {
+        "description": "Steam 上的所有遊戲",
+        "long": "Steam 目錄",
+        "short": "Steam 目錄"
+      },
+      "indie": {
+        "description": "標記為｢獨立製作｣的遊戲",
+        "long": "獨立製作",
+        "short": "獨立製作"
+      },
+      "library": {
+        "description": "{{username}} 的遊戲",
+        "long": "個人收藏庫",
+        "short": "個人收藏庫"
+      },
+      "localMultiplayer": {
+        "description": "標記為｢本地多人｣的遊戲",
+        "long": "本地多人",
+        "short": "本地多人"
+      },
+      "minProminence": {
+        "description": "Games that meet a minimum threshold of Steam followers",
+        "long": "Popular Games",
+        "short": "Popular Games"
+      },
+      "singlePlayer": {
+        "description": "標記為｢單人｣的遊戲",
+        "long": "單人",
+        "short": "單人"
+      },
+      "topHundred": {
+        "description": "以高峰同時玩家數計算",
+        "long": "前 100",
+        "short": "前 100"
+      },
+      "topTen": {
+        "description": "以高峰同時玩家數計算",
+        "long": "前 10",
+        "short": "前 10"
+      },
+      "topThousand": {
+        "description": "以高峰同時玩家數計算",
+        "long": "前 1000",
+        "short": "前 1000"
+      },
+      "vr": {
+        "description": "標記為｢VR｣的遊戲",
+        "long": "VR",
+        "short": "VR"
+      }
+    },
+    "decline": "返回",
+    "gameSorts": {
+      "playerCount": {
+        "long": "Sort By: Player Count",
+        "short": "玩家數"
+      },
+      "rating": {
+        "long": "Sort By: Rating",
+        "short": "評分"
+      }
+    },
+    "gamesNotFound": "找不到遊戲。請確認是否已在 [Steam 設定]({{link}})中將｢遊戲詳細資料｣設為公開。",
+    "greetLoggedIn": "Want to see how many games I can play?",
+    "lookupMyLibrary": "載入收藏庫",
+    "mostPlayedRatedUnverified": "Unofficially Looking Good Here",
+    "mostPlayedRatedUnverifiedExtra": "The following games are not yet officially Deck Verified as Verified nor Playable status, but according to community reports are looking good for play on Linux.",
+    "mostPlayedVerified": "官方認證",
+    "mostPlayedVerifiedExtra": "These are games you own that Valve has certified as Deck Verified: Verified or Playable status",
+    "ratingDefinitions": {
+      "?": "待定：需要更多資料",
+      "T1": "最高等級。Ubiquitously positive reports.",
+      "T1andT2": "T2 或更高等級",
+      "T1andT2andT3": "T3 或更高等級",
+      "T2": "次高等級。Some reports of trouble but is mostly good.",
+      "T3": "中間等級。 A mix of positive and negative.",
+      "T4": "次低等級。 Negative reports overall.",
+      "T5": "最低等級。 Borked!",
+      "borked": "Either won't start or is crucially unplayable",
+      "bronze": "Runs, but often crashes or has issues preventing from playing comfortably",
+      "gold": "Runs perfectly after tweaks",
+      "native": "在 Linux 上原生運行",
+      "pending": "Awaiting further reports before giving a rating",
+      "platinum": "Runs perfectly out of the box",
+      "platinumandgold": "金牌或更高等級",
+      "platinumandgoldandsilver": "銀牌或更高等級",
+      "playable": "可遊玩",
+      "silver": "仍有輕微問題，但大致上可遊玩",
+      "unknown": "未知",
+      "unsupported": "不支援",
+      "verified": "已認證",
+      "verifiedandplayable": "已認證或可遊玩"
+    },
+    "submit": "Sure!",
+    "tierSystemHeadline": "Rating System",
+    "tierSystems": {
+      "deckVerified": {
+        "description": "Steam's official certification for play on the Steam Deck",
+        "long": "Steam Deck 認證",
+        "short": "Deck 認證"
+      },
+      "protonDbClickPlay": {
+        "description": "ProtonDB's new appraisal: How does it play without any tinkering.",
+        "long": "ProtonDB Click Play",
+        "short": "Click Play"
+      },
+      "protonDbMedals": {
+        "description": "ProtonDB's appraisal: How does it play. You may need to tinker.",
+        "long": "ProtonDB 獎牌",
+        "short": "獎牌"
+      }
+    },
+    "tryYourLibrary": "試試您的收藏庫",
+    "useLibrary": "使用",
+    "userNotFound": "找不到使用者。 Ensure 'My Profile' and 'Game Details' are set to public in your [Steam settings]({{link}}).",
+    "using": "Using",
+    "viewSteamCatalog": "查看 Steam 目錄",
+    "yourLibrary": "您的收藏庫",
+    "yourSteamId": "您的 Steam ID"
+  },
+  "contributorSettings": {
+    "addAPCDevice": "新增電腦",
+    "addASteamDeckDevice": "新增 Steam Deck",
+    "headline": "Contributor Settings",
+    "intro": "Add a device to contribute reports. ProtonDB now supports storing multiple device configurations. Devices are divided into one of two types: PC or Steam Deck",
+    "intro2": "Some further detail:",
+    "invalidInfo": "Device details are invalid. Must be fixed to be used for contributing.",
+    "notOnSteamDeck": "Log into ProtonDB with a Steam Deck on Desktop Mode to add one.",
+    "otherDetail1": "Devices (as well as preferences) are now persisted across anywhere you login.",
+    "otherDetail2": "If you provide a single device, it will be automatically be applied during the contribute flow.",
+    "otherDetail3": "If you provide more than one, you will be prompted to select one, by its name, at the 'Setup' step.",
+    "otherDetail4": "Changes to your devices will not be ready until you hit Save.",
+    "otherDetail5": "Only the inferrence of your system information is ever made public, never raw Steam data.",
+    "validInfo": "Device details are valid and may be used for contributing.",
+    "yourDevices": "您的裝置"
+  },
+  "dashboard": {
+    "description1": "ProtonDB's new Click Play rating is still being fine-tuned. For more information, see the [news post]({{link1}}). Tens of thousands of authors contribute the reports that power this visualization. You can too! Reports are available via ODBL license [in monthly exports]({{link2}}).",
+    "description2": "本網站是由 Buck DeFore 建立。為獨立的社群專案，與 Valve 或 Steam 沒有任何關聯。如果您喜歡本專案，請考慮[在 Patreon 上支持我]({{link}})。",
+    "headline": "有多少遊戲能在 Linux 或 Steam Deck 上遊玩？"
+  },
   "explore": {
     "headlines": {
       "antiCheat": "使用反作弊程式",
-      "dateAdded": "加入日期",
+      "dateAdded": "近期加入",
       "fixWanted": "期待修復",
+      "heavilyReported": "許多近期回報",
       "highestRated": "SteamDB 高分",
       "hoursPlayed": "遊戲時間",
       "inLibrary": "在我的遊戲庫中：",
@@ -30,24 +176,27 @@
       "percentPositive": "在商店中受好評",
       "popular": "最多追蹤者",
       "rank": "最受歡迎",
-      "recentlyImproved": "最近改善",
+      "recentlyImproved": "近期改善",
+      "recentlyReleased": "近期發佈",
       "releaseDate": "依照發佈日期",
       "userScore": "良好的回覆內容",
       "wellRatedHere": "高評分"
     },
     "layout": "布局",
     "loadError": "無法載入遊戲！",
-    "notLoggedIn": "需要關聯 Steam ID 以載入遊戲庫。請訪問您的 [個人頁面]({{link}}) 進行關聯。",
+    "notLoggedIn": "需要關聯 Steam ID 以載入遊戲庫。請前往您的[個人頁面]({{link}})進行關聯。",
     "sorts": {
-      "dateAdded": "最近加入",
+      "dateAdded": "近期加入",
       "fixWanted": "期待修復",
+      "heavilyReported": "近期回報數",
       "hoursPlayed": "遊戲時間",
       "mostBorked": "最多不可玩回報",
       "percentPositive": "好評比例",
       "playerCount": "玩家數量",
       "popular": "受歡迎程度",
       "rank": "最受歡迎",
-      "recentlyImproved": "最近改善",
+      "recentlyImproved": "近期改善",
+      "recentlyReleased": "近期發佈",
       "releaseDate": "發佈日期",
       "userScore": "用戶評分",
       "wilsonRating": "ProtonDB 評分"
@@ -56,7 +205,7 @@
     "toggles": {
       "antiCheat": "反作弊程式",
       "deckVerified": "Deck 認證",
-      "includeNative": "包含原生",
+      "excludeNative": "排除原生",
       "lackReports": "缺乏回報",
       "restrictToLibrary": "遊戲庫",
       "untested": "缺乏回報",
@@ -88,27 +237,28 @@
     }
   },
   "gameDetails": {
-    "githubIssueSearch": "搜索 Github Issue",
-    "infoNotFound": "無法獲取 App ID：{{entry}} 的相關訊息。遊戲被從商店下架時會發生這種情況。",
+    "githubIssueSearch": "搜尋 Github Issue",
+    "infoNotFound": "無法取得 App ID：{{entry}} 的相關資訊。遊戲被從商店下架時會發生這種情況。",
     "minimumRequirements": "最低配置要求",
     "nativelySupports": "原生支持",
     "notices": {
       "antiCheat": {
         "battlEye": {
-          "explanation": "此遊戲已採用 [BattlEye](https://www.battleye.com)。BattlEye [可在 Linux 運行](https://twitter.com/TheBattlEye/status/1441477816311291906)，但多人遊戲功能取決於開發者是否啟用"
+          "explanation": "此遊戲已採用 [BattlEye](https://www.battleye.com)。BattlEye[可在 Linux 運行](https://twitter.com/TheBattlEye/status/1441477816311291906)，但多人遊戲功能取決於開發者是否啟用。"
         },
         "eac": {
-          "explanation": "此遊戲已採用 [Easy Anti-Cheat](https://www.easy.ac)。EAC 已 [部分支援 Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck)，但多人遊戲功能取決於開發者是否啟用."
+          "explanation": "此遊戲已採用 [Easy Anti-Cheat](https://www.easy.ac)。EAC 已[部分支援 Linux](https://dev.epicgames.com/en-US/news/epic-online-services-launches-anti-cheat-support-for-linux-mac-and-steam-deck)，但多人遊戲功能取決於開發者是否啟用。"
         },
         "headline": "多人遊戲支援"
       },
       "nativeDiscrepancy": {
-        "explanation": "雖然此遊戲有 Linux 原生版本，Steam 不將它列為被 Linux 支援。這可能發生在遊戲為非官方、未完成、或版本不合。您可能需要 [強迫 Steam 為所有遊戲啟用 Proton](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) 來正確執行遊戲.",
+        "explanation": "雖然此遊戲有 Linux 原生版本，Steam 不將它列為被 Linux 支援。如果遊戲的組建尚未完成、非官方，或是不支援就會發生此情況。您可能需要[強迫 Steam 為此遊戲啟用 Proton](/help/troubleshooting-faq#how-do-i-run-a-game-with-proton-even-though-it-has-a-native-linux-version) 來正確執行遊戲。",
         "headline": "原生支援"
       }
     }
   },
   "home": {
+    "compatibilityScoresDescription": "這是如何運作的？在[新聞]({{link1}})中了解詳情。同時，you can use a bigger version on [the new Dashboard page]({{link2}}).",
     "getStartedLinks": [
       "[Steam 官方 Steam Play 頁面](https://store.steampowered.com/steamplay)",
       "[遷移到 Linux 指南（英文）](https://www.reddit.com/r/linux_gaming/comments/9oqq3w/guide_migrating_to_linux_in_2019/)",
@@ -116,22 +266,24 @@
     ],
     "headline": "得益於 Proton 和 Steam Play，許多 Windows 遊戲現在可以在 Linux 運行了！",
     "howDoIHelp": {
-      "answer": "嘗試下 Linux！如果您還是新手，别擔心，這裡有一些教學幫您入門。如果您想幫 Valve 改進 Proton，您可以在這提交您的測試回報！",
+      "answer": "試試 Linux 吧！如果您還是新手，别擔心，這裡有一些教學幫您入門。如果您想幫助 Valve 改進 Proton，您可以在這提交您的測試回報！",
       "question": "太棒了！我可以做些什麼？"
     },
-    "letsGetStarted": "讓我們開始。",
+    "letsGetStarted": "讓我們開始吧。",
     "sampleGames": "以下遊戲雖然尚未在官方的白名單中，但 ProtonDB 已經收到了許多這些遊戲的白金等級的回報",
-    "search": "搜索遊戲…",
+    "search": "搜尋遊戲…",
     "stats": {
       "atLeastOneRecommends": "至少有一人推薦",
       "atLeastThreeRecommend": "至少有三人或更多人推薦",
       "atLeastTwoRecommend": "至少有兩人推薦",
       "deckVerified": "Deck 認證",
-      "deckVerifiedPlayable": "Deck 認證（可玩或已認證）",
+      "deckVerifiedHeader": "Deck 認證遊戲",
+      "deckVerifiedPlayable": "可玩或已認證",
       "gamesReported": "已回報的遊戲",
       "gamesWithReports": "有回報的遊戲",
       "gamesWork": "可運行的遊戲",
       "gamesWorkExplanation": "至少有一個讚或白金（舊評價系統）回報",
+      "protonDbGamesHeader": "ProtonDB 上的遊戲",
       "reportsWritten": "測試回報"
     },
     "theImpact": {
@@ -160,16 +312,31 @@
     "silver": "銀"
   },
   "ratingDefinitions": {
+    "categories": {
+      "clickPlay": "Click Play: Without any tinkering",
+      "deck": "How it plays on the Steam Deck",
+      "tinker": "Tinker: Some assembly required"
+    },
     "explanations": {
-      "borked": "無法運行或關鍵部分不可玩",
-      "bronze": "可以運行，但經常死當或存在影響遊戲舒適的問題",
+      "borked": "無法啟動或遊玩",
+      "bronze": "可以運行，但經常死當或存在影響遊戲體驗的問題",
       "gold": "經過調整後完美運行",
       "native": "原生 Linux 遊戲",
       "pending": "等待更多回報以得出評分",
       "platinum": "開箱即玩，完美運行",
       "silver": "雖然有小問題，但總體上可玩"
     },
-    "headline": "評分標準"
+    "headline": "評分標準",
+    "ratings": {
+      "?": "待定：需要更多資料",
+      "A": "A 級：優秀",
+      "B": "B 級：良好，但仍有進步空間",
+      "C": "C 級：Needs some work",
+      "D": "D 級：漏洞百出",
+      "F": "F 級：Borked!",
+      "S": "S 級：完美無缺"
+    },
+    "reports": "Click to view reports"
   },
   "specs": {
     "cpu": "中央處理器",
@@ -205,6 +372,7 @@
   "systemInfo": {
     "headline": "系統訊息",
     "howTo": "您可以通過訪問您玩遊戲的機器上的 Steam 設置來快速獲取這些訊息。[請到這了解更多訊息]({{link}})。（一些用戶反應他們在點擊右鍵前，需要通過按 Ctrl-A 來全選内容。）",
+    "howToSteamDeck": "Steam Deck: 目前只能在 Steam Deck 的桌面模式中新增此裝置。由於現在裝置紀錄不會因登入或登出而消失，故您只需新增一次，即可在其他裝置上撰寫報告。",
     "intro": "顯示測試遊戲的硬體和軟體訊息有助於保證回報的實用性和可信度。為了盡可能保證準確和一致性，我們使用 Steam 本身蒐集的系統訊息。",
     "parseFailure": "解讀失敗。如果您確定您複製的内容是正確的，請在 Discord 告知我們",
     "parseSuccess": "系統訊息解讀成功！",
